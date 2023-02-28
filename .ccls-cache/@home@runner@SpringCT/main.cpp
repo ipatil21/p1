@@ -1,15 +1,63 @@
+// Common header files
 #include <iostream>
 #include <list>
+
+// Socket header files
+#include <netdb.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+
 using namespace std;
 
 // tcp server class
 class TCPServer {
+
 public:
-  void createSocket() {}
 
-  void bindSocket() {}
+  // default ctor
+  TCPServer() {
+    init();
+  }
 
-  void startListening() {}
+  // create socket
+  int createSocket() {
+    cout << "Creating TCPServer socket ..." << endl;
+    int listening = socket(AF_INET, SOCK_STREAM, 0);
+    if (-1 == listening) {
+        cerr << "Error while creating TCP/IP socket !!!";
+        return -1;
+    }
+  }
+
+  // bind it
+  int bindSocket() {
+    cout << "Binding TCPServer socket to sockaddr ..." << endl;
+    if (bind(listening, (struct sockaddr *)&hint, sizeof(hint)) == -1) {
+        std::cerr << "Error while binding to IP/port";
+        return -2;
+    }
+  }
+
+  // let's listen
+  int startListening() {
+      cout << "Begin socket for listening ..." << endl;
+      if (listen(listening, SOMAXCONN) == -1) {
+        std::cerr << "Error while listening socket !";
+        return -3;
+      }
+  }
+
+private:
+
+  void init() {
+    listening = socket(AF_INET, SOCK_STREAM, 0);
+    hint.sin_family = AF_INET;
+    hint.sin_port = htons(54000);
+    inet_pton(AF_INET, "0.0.0.0", &hint.sin_addr);
+  }
+
+  struct sockaddr_in hint;
+  int listening;
 };
 
 // tcp client class
@@ -26,26 +74,27 @@ public:
 class TicketItem {
 public:
   // ctor
-  TicketItem(uint time, uint max, name) : m_maxLimit(max), m_startTime(time), m_name(name) {}
+  TicketItem(uint time, uint max, string name) : m_maxBookingLimit(max), m_startTime(time), m_name(name) {}
 
-  uint getMaxLimit() { return m_maxLimit; }
+  uint getMaxLimit() { return m_maxBookingLimit; }
 
   uint getStartTime() { return m_startTime; }
 
   string getName() { return m_name; }
 
-  uint getAvailable() { return m_maxLimit - m_bookedItem; }
+  uint getAvailable() { return m_maxBookingLimit - m_bookedItems; }
 
 private:
   uint m_startTime;
-  uint m_maxLimit;
-  uint m_bookedItem;
+  uint m_maxBookingLimit;
+  uint m_bookedItems;
   string m_name;
 };
 
 // ticket manager class
 class GenericTicketBookingServer : public TCPServer {
 public:
+
   void displayAllTicketList() { printTicketList(m_allTicketList); }
 
   list<TicketItem> getAllTicketList() { return m_allTicketList; }
@@ -58,7 +107,7 @@ public:
 
 private:
   list<TicketItem> tallyAvailability() {
-    resetAvailableTicketList();
+    m_availableTicketList.clear();
     list<TicketItem>::iterator itr = m_allTicketList.begin();
     for (itr; itr != m_allTicketList.end(); ++itr) {
       TicketItem temp = *itr;
@@ -67,8 +116,6 @@ private:
       }
     }
   }
-
-  void resetAvailableTicketList() { m_availableTicketList.clear(); }
 
   void printTicketList(list<TicketItem> lst) {
     list<TicketItem>::iterator itr = lst.begin();
@@ -79,7 +126,10 @@ private:
       cout << "***********Item End ***********" << endl;
     }
   }
-
+  void init() {
+    createSocket();
+    
+  }
   // data memebers
   list<TicketItem> m_allTicketList;
   list<TicketItem> m_availableTicketList;
@@ -93,4 +143,12 @@ public:
 private:
 };
 
-int main() { std::cout << "Hello World!\n"; }
+int main() {
+  GenericTicketBookingClient cl1;
+  GenericTicketBookingClient cl2;
+  GenericTicketBookingClient cl3;
+  GenericTicketBookingClient cl4;
+  GenericTicketBookingClient cl5;
+
+  cout << "Hello World!\n"; 
+}
