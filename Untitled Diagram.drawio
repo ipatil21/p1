@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T06:34:28.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="vNxkkVRxjSBJmJrjE5OJ" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-04T06:58:02.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="J45BCXCN1HYml5IT8I69" version="21.6.6" type="github">
   <diagram name="Page-1" id="CYjk6m-uVm8bVTd_lw2f">
-    <mxGraphModel dx="986" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="986" dy="1559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,13 +13,13 @@
         <mxCell id="DUSnBt2DZ8czqrWTQSeJ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-1">
           <mxGeometry y="70" width="430" height="8" as="geometry" />
         </mxCell>
-        <object label="+ PUBLIC SLOT - HandleGroundSettingsShortcutClick(void): void&lt;br&gt;+ PRIVATE FUNC - SetUpGroundSpeedSettingsShortcut(void): void&lt;br&gt;+ PUBLIC SLOT - HandleHAXOptionalityInstallationStatus(const bool harvestSmartInstallationStatus, const bool ataInstallationStatus&lt;br&gt;): void&lt;br&gt;+ PRIVATE FUNC - HandleShortcutVisbilityChanged(JDWidgets::JDShortcut* shortcut, const QString&amp;amp; id, const bool isVisible)&lt;br&gt;+&amp;nbsp;" SetUpGroundSpeedSettingsShortcut="sss" id="DUSnBt2DZ8czqrWTQSeJ-4">
+        <object label="+ PUBLIC SLOT_1 - HandleGroundSettingsShortcutClick(void): void&lt;br&gt;+ PRIVATE FUNC - SetUpGroundSpeedSettingsShortcut(void): void&lt;br&gt;+ PUBLIC SLOT_2 - HandleHAXOptionalityInstallationStatus(const bool harvestSmartInstallationStatus, const bool ataInstallationStatus&lt;br&gt;): void&lt;br&gt;+ PRIVATE FUNC - HandleShortcutVisbilityChanged(JDWidgets::JDShortcut* shortcut, const QString&amp;amp; id, const bool isVisible)&lt;br&gt;+ &lt;i&gt;FUNCTIONS YET TO BE ADDED&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;a. Set Indicator Icon Label b. Set Short Cut Text based on events&lt;br&gt;&lt;br&gt;&lt;/i&gt;" SetUpGroundSpeedSettingsShortcut="sss" id="DUSnBt2DZ8czqrWTQSeJ-4">
           <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-1">
             <mxGeometry y="78" width="430" height="140" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-5" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Custom Shortcut Button Widget&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ ShortcutButtonWidget.ui File&lt;br&gt;+ ShortcutButtonWidget.cpp&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ ShortcutButtonWidget.h&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Repo Path: Presentation/ShortcutButtonWidget/&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="280" height="110" as="geometry" />
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-5" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Custom Shortcut Button Widget&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ ShortcutButtonWidget.ui File&lt;br&gt;+ ShortcutButtonWidget.cpp&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ ShortcutButtonWidget.h&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Repo Path: Presentation/ShortcutButtonWidget/&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Indicator-Icon Path: ux-common&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="DUSnBt2DZ8czqrWTQSeJ-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-5">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -40,10 +40,105 @@
           </mxCell>
         </UserObject>
         <mxCell id="DUSnBt2DZ8czqrWTQSeJ-12" value="HAXAppController" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="320" width="430" height="190" as="geometry" />
+          <mxGeometry x="10" y="320" width="430" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-13" value="+SIGNAL -&amp;nbsp;&lt;br&gt;+Attribute2&lt;br&gt;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-12">
-          <mxGeometry y="50" width="430" height="140" as="geometry" />
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-13" value="+ SIGNAL_1 -&amp;nbsp;NotifyHAXOptionalityInstallationStatus" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-12">
+          <mxGeometry y="50" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.002;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="DUSnBt2DZ8czqrWTQSeJ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="sourcePoint" />
+            <mxPoint x="660" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="390" />
+              <mxPoint x="600" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-16" value="SIG_1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-14">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-17" value="SLT_2" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-14">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="36" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-19" value="&lt;b&gt;&lt;u style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Combine_Automation_Apps_PR&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-50" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-20" value="HAX App CMake File" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="480" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-21" value="JD_CREATE_SHORTCUT&lt;br&gt;&amp;nbsp; &amp;nbsp; + Icon-Path - ux-combineautomationsapps repo&lt;br&gt;&amp;nbsp; &amp;nbsp; + Preview-Path - ux-combineautomationsapps repo&lt;br&gt;&amp;nbsp; &amp;nbsp; + Enabed - True" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-20">
+          <mxGeometry y="30" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-24" value="Layout Manager" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="590" y="480" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-24">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-26" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-25">
+          <mxGeometry width="53" height="30" as="geometry">
+            <mxRectangle width="53" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-27" value="GSA Shortcut" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-25">
+          <mxGeometry x="53" width="187" height="30" as="geometry">
+            <mxRectangle width="187" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-24">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-29" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-28">
+          <mxGeometry width="53" height="30" as="geometry">
+            <mxRectangle width="53" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-30" value="...." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-28">
+          <mxGeometry x="53" width="187" height="30" as="geometry">
+            <mxRectangle width="187" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-24">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-32" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-31">
+          <mxGeometry width="53" height="30" as="geometry">
+            <mxRectangle width="53" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-33" value="...." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="DUSnBt2DZ8czqrWTQSeJ-31">
+          <mxGeometry x="53" width="187" height="30" as="geometry">
+            <mxRectangle width="187" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-36" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="590.004373727391" y="305.9953677967776" width="20" height="14" as="geometry" />
+        </mxCell>
+        <object label="1" id="DUSnBt2DZ8czqrWTQSeJ-40">
+          <mxCell style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.999;exitY=0.695;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DUSnBt2DZ8czqrWTQSeJ-21" target="DUSnBt2DZ8czqrWTQSeJ-28">
+            <mxGeometry x="-1" y="-57" relative="1" as="geometry">
+              <mxPoint x="480" y="600" as="sourcePoint" />
+              <mxPoint x="510" y="560" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="490" y="559" />
+                <mxPoint x="490" y="561" />
+              </Array>
+              <mxPoint x="17" y="-40" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-41" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DUSnBt2DZ8czqrWTQSeJ-40">
+          <mxGeometry x="-0.511" y="-18" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUSnBt2DZ8czqrWTQSeJ-43" value="Creating shortcut &lt;br&gt;in cmake file for &lt;br&gt;Layout Manager" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DUSnBt2DZ8czqrWTQSeJ-40">
+          <mxGeometry x="-0.4285" y="-20" relative="1" as="geometry">
+            <mxPoint x="35" y="-49" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
